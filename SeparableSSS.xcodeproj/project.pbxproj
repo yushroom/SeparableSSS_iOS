@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		BF6B60F91B7CBB2F00A3B897 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6B60F81B7CBB2F00A3B897 /* Shader.cpp */; };
+		BF6B60FB1B7DAEFC00A3B897 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6B60FA1B7DAEFC00A3B897 /* Model.cpp */; };
+		BF6B613C1B7DD7FD00A3B897 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6B613B1B7DD7FD00A3B897 /* CoreFoundation.framework */; };
+		BF6B61441B7DDD4200A3B897 /* libzlibstatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6B61431B7DDD4200A3B897 /* libzlibstatic.a */; };
+		BF6B61461B7DDDBB00A3B897 /* head in Resources */ = {isa = PBXBuildFile; fileRef = BF6B61451B7DDDBB00A3B897 /* head */; };
+		BF6B61481B7DE10A00A3B897 /* StPeters in Resources */ = {isa = PBXBuildFile; fileRef = BF6B61471B7DE10A00A3B897 /* StPeters */; };
+		BF6B614D1B7DE40200A3B897 /* GLError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6B614B1B7DE40200A3B897 /* GLError.cpp */; };
+		BF6B614F1B7DE8B400A3B897 /* TextureLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6B614E1B7DE8B400A3B897 /* TextureLoader.cpp */; };
+		BF6B61511B7DEA9D00A3B897 /* shader in Resources */ = {isa = PBXBuildFile; fileRef = BF6B61501B7DEA9D00A3B897 /* shader */; };
+		BF6B61531B7DEACD00A3B897 /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6B61521B7DEACD00A3B897 /* libassimp.a */; };
+		BF6B61551B7DEADB00A3B897 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6B61541B7DEADB00A3B897 /* libSDL2.a */; };
+		BF6B61591B7DEBCC00A3B897 /* Camer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6B61571B7DEBCC00A3B897 /* Camer.cpp */; };
+		BF6B615C1B7DF51800A3B897 /* RenderContex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6B615B1B7DF51800A3B897 /* RenderContex.cpp */; };
+		FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD779EDD0E26BA1200F39101 /* CoreAudio.framework */; };
+		FD77A07D0E26BD8C00F39101 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD77A07C0E26BD8C00F39101 /* Icon.png */; };
+		FD77A07F0E26BDA900F39101 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD77A07E0E26BDA900F39101 /* Default.png */; };
+		FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD77A0840E26BDB800F39101 /* AudioToolbox.framework */; };
+		FD77A09D0E26BDE500F39101 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD77A09C0E26BDE500F39101 /* main.cpp */; };
+		FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* SeparableSSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeparableSSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6B60EE1B7CB41200A3B897 /* SSSSRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSSRender.h; sourceTree = "<group>"; };
+		BF6B60EF1B7CB69800A3B897 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		BF6B60F01B7CB69800A3B897 /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		BF6B60F11B7CB69800A3B897 /* TextureLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureLoader.h; sourceTree = "<group>"; };
+		BF6B60F21B7CB69800A3B897 /* Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		BF6B60F71B7CB7EF00A3B897 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		BF6B60F81B7CBB2F00A3B897 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		BF6B60FA1B7DAEFC00A3B897 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
+		BF6B613B1B7DD7FD00A3B897 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BF6B61431B7DDD4200A3B897 /* libzlibstatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzlibstatic.a; sourceTree = "<group>"; };
+		BF6B61451B7DDDBB00A3B897 /* head */ = {isa = PBXFileReference; lastKnownFileType = folder; path = head; sourceTree = "<group>"; };
+		BF6B61471B7DE10A00A3B897 /* StPeters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StPeters; sourceTree = "<group>"; };
+		BF6B614B1B7DE40200A3B897 /* GLError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLError.cpp; sourceTree = "<group>"; };
+		BF6B614C1B7DE40200A3B897 /* GLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLError.h; sourceTree = "<group>"; };
+		BF6B614E1B7DE8B400A3B897 /* TextureLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureLoader.cpp; sourceTree = "<group>"; };
+		BF6B61501B7DEA9D00A3B897 /* shader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shader; sourceTree = "<group>"; };
+		BF6B61521B7DEACD00A3B897 /* libassimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libassimp.a; path = external/Assimp/lib/libassimp.a; sourceTree = "<group>"; };
+		BF6B61541B7DEADB00A3B897 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = external/SDL/lib/libSDL2.a; sourceTree = "<group>"; };
+		BF6B61571B7DEBCC00A3B897 /* Camer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camer.cpp; sourceTree = "<group>"; };
+		BF6B61581B7DEBCC00A3B897 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		BF6B615A1B7DF46A00A3B897 /* RenderContex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderContex.h; sourceTree = "<group>"; };
+		BF6B615B1B7DF51800A3B897 /* RenderContex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderContex.cpp; sourceTree = "<group>"; };
+		BF6B615D1B81AEEA00A3B897 /* ShaderLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderLoader.h; sourceTree = "<group>"; };
+		FD779EDD0E26BA1200F39101 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		FD77A07C0E26BD8C00F39101 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FD77A07E0E26BDA900F39101 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FD77A0840E26BDB800F39101 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FD77A09C0E26BDE500F39101 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6B61441B7DDD4200A3B897 /* libzlibstatic.a in Frameworks */,
+				BF6B613C1B7DD7FD00A3B897 /* CoreFoundation.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */,
+				FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */,
+				BF6B61531B7DEACD00A3B897 /* libassimp.a in Frameworks */,
+				FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */,
+				BF6B61551B7DEADB00A3B897 /* libSDL2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SeparableSSS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BF6B61521B7DEACD00A3B897 /* libassimp.a */,
+				BF6B61431B7DDD4200A3B897 /* libzlibstatic.a */,
+				BF6B61541B7DEADB00A3B897 /* libSDL2.a */,
+				29B97315FDCFA39411CA2CEA /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF6B61561B7DEB7900A3B897 /* headers */,
+				BF6B614E1B7DE8B400A3B897 /* TextureLoader.cpp */,
+				BF6B614B1B7DE40200A3B897 /* GLError.cpp */,
+				BF6B60FA1B7DAEFC00A3B897 /* Model.cpp */,
+				FD77A09C0E26BDE500F39101 /* main.cpp */,
+				BF6B60F81B7CBB2F00A3B897 /* Shader.cpp */,
+				BF6B61571B7DEBCC00A3B897 /* Camer.cpp */,
+				BF6B615B1B7DF51800A3B897 /* RenderContex.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF6B61501B7DEA9D00A3B897 /* shader */,
+				BF6B61471B7DE10A00A3B897 /* StPeters */,
+				BF6B61451B7DDDBB00A3B897 /* head */,
+				FD77A07E0E26BDA900F39101 /* Default.png */,
+				FD77A07C0E26BD8C00F39101 /* Icon.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6B613B1B7DD7FD00A3B897 /* CoreFoundation.framework */,
+				FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */,
+				FD77A0840E26BDB800F39101 /* AudioToolbox.framework */,
+				FD779EDD0E26BA1200F39101 /* CoreAudio.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6B61561B7DEB7900A3B897 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				BF6B615D1B81AEEA00A3B897 /* ShaderLoader.h */,
+				BF6B615A1B7DF46A00A3B897 /* RenderContex.h */,
+				BF6B61581B7DEBCC00A3B897 /* Camera.h */,
+				BF6B614C1B7DE40200A3B897 /* GLError.h */,
+				BF6B60EF1B7CB69800A3B897 /* Model.h */,
+				BF6B60F11B7CB69800A3B897 /* TextureLoader.h */,
+				BF6B60F21B7CB69800A3B897 /* Timer.h */,
+				BF6B60EE1B7CB41200A3B897 /* SSSSRender.h */,
+				BF6B60F71B7CB7EF00A3B897 /* Debug.h */,
+				BF6B60F01B7CB69800A3B897 /* Shader.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SeparableSSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SeparableSSS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeparableSSS;
+			productName = SeparableSSS;
+			productReference = 1D6058910D05DD3D006BFB54 /* SeparableSSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SeparableSSS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SeparableSSS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6B61511B7DEA9D00A3B897 /* shader in Resources */,
+				BF6B61461B7DDDBB00A3B897 /* head in Resources */,
+				FD77A07D0E26BD8C00F39101 /* Icon.png in Resources */,
+				FD77A07F0E26BDA900F39101 /* Default.png in Resources */,
+				BF6B61481B7DE10A00A3B897 /* StPeters in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6B614F1B7DE8B400A3B897 /* TextureLoader.cpp in Sources */,
+				BF6B60FB1B7DAEFC00A3B897 /* Model.cpp in Sources */,
+				BF6B615C1B7DF51800A3B897 /* RenderContex.cpp in Sources */,
+				BF6B61591B7DEBCC00A3B897 /* Camer.cpp in Sources */,
+				BF6B614D1B7DE40200A3B897 /* GLError.cpp in Sources */,
+				BF6B60F91B7CBB2F00A3B897 /* Shader.cpp in Sources */,
+				FD77A09D0E26BDE500F39101 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SDL/lib\"",
+					"$(PROJECT_DIR)/SDL/lib",
+					"$(PROJECT_DIR)/Assimp/lib",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/external/Assimp/lib",
+					"$(PROJECT_DIR)/external/SDL/lib",
+				);
+				PRODUCT_NAME = SeparableSSS;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SDL/lib\"",
+					"$(PROJECT_DIR)/SDL/lib",
+					"$(PROJECT_DIR)/Assimp/lib",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/external/Assimp/lib",
+					"$(PROJECT_DIR)/external/SDL/lib",
+				);
+				PRODUCT_NAME = SeparableSSS;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./external/glm/include,
+					./external/SDL/include,
+					./external/Assimp/include,
+					"./external/gli/gli-0.6.1.1/gli",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./external/glm/include,
+					./external/SDL/include,
+					./external/Assimp/include,
+					"./external/gli/gli-0.6.1.1/gli",
+				);
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SeparableSSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SeparableSSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
